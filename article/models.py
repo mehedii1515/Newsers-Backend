@@ -53,7 +53,7 @@ def post_rating_tasks(sender, instance, *args, **kwargs):
         message = instance.body
         send_mail(
             subject="A new review on your article",
-            from_email="imdashraful17@gmail.com",
+            from_email="raintree1515@gmail.com",
             recipient_list=[email,],
             message='',
             html_message=f"""
