@@ -6,3 +6,4 @@ drf-registration
 django-allauth
 dj-rest-auth
 Pillow
+dj-database-url
